@@ -1,0 +1,126 @@
+.styleButton button{
+    /*margin:auto;*/
+    float: right;
+  
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 3%;
+  
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-family: monospace;
+    font-size: 150%;
+    font-weight:900;
+    text-align: center;
+    width:10%;
+    height:5%;
+    background-color: #7eba3d;
+    border:5px white solid;
+    border-radius: 15px;
+  }
+  
+  .styleButton button:hover{
+    background-color: #D3D3D3;
+  }
+  
+  
+  /*Navbar stuff begins*/
+  .navBar {
+    /*NEW STUFF*/
+    margin:auto;
+    max-width: 97%;
+    border: 4px #3571df solid;
+    border-radius: 25px;
+  
+    font-family: monospace;
+    font-size: 300%;
+    text-align: center;
+    text-decoration-color: white;
+    background-color: #6495ed;
+    overflow: hidden;
+    white-space: nowrap; /*prevents the */
+  }
+  
+  .navBar a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+  }
+
+  .navBar a:hover{
+    background-color: #3571df;
+    font-size: 110%;
+    font-weight: bolder;
+    border-radius: 20px;
+  }
+  
+  /*Navbar stuff ends*/
+
+.pageTitle h1{
+    margin-left: 15%;/*HAD TO INCLUDE BC BUTTON*/
+    
+    text-align: center;
+    color:white;
+    font-family:monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+
+.volunteerWork{
+    margin:auto;
+    border-bottom: 5px #D3D3D3 solid;
+    padding:2%;
+    display:block;
+    max-width: 80%;
+
+    /*THIS WORKS*/
+    min-height: 400px;
+}
+
+.volunteerWork .titleAndInfo{
+    display:inline-block;
+    max-width:49%;
+}
+
+.volunteerWork h1{
+    font-family: monospace;
+    font-size: 300%;
+    color:white;
+}
+
+.volunteerWork .titleAndInfo p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 140%;
+    color:#D3D3D3;
+}
+
+.picAndLink{
+    margin:auto;
+    float:right;
+    max-width: 65%;
+    align-content: center;
+}
+
+.volunteerWork a{
+    text-align: center;
+    color:white;
+    font-family: monospace;
+    font-size: 175%;
+    font-weight: bold;
+
+}
+
+.volunteerWork img{
+    max-height: 300px;
+    border: 5px #D3D3D3 solid;
+    background-color: #D3D3D3;
+    border-radius: 25px;
+
+}
+
+body{
+    background-color: #333333;
+    background-image: url("background.png");
+}

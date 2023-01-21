@@ -1,0 +1,171 @@
+.styleButton button{
+    /*margin:auto;*/
+    float: right;
+  
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 3%;
+  
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-family: monospace;
+    font-size: 150%;
+    font-weight:900;
+    text-align: center;
+    width:10%;
+    height:5%;
+    background-color: #7eba3d;
+    border:5px white solid;
+    border-radius: 15px;
+  }
+  
+  .styleButton button:hover{
+    background-color: #D3D3D3;
+  }
+  
+  
+  /*Navbar stuff begins*/
+  .navBar {
+    /*NEW STUFF*/
+    margin:auto;
+    max-width: 97%;
+    border: 4px #3571df solid;
+    border-radius: 25px;
+  
+    font-family: monospace;
+    font-size: 300%;
+    text-align: center;
+    text-decoration-color: white;
+    background-color: #6495ed;
+    overflow: hidden;
+    white-space: nowrap; /*prevents the */
+  }
+  
+  .navBar a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+  }
+  
+  .navBar a:hover{
+    background-color: #3571df;
+    font-size: 110%;
+    font-weight: bolder;
+    border-radius: 20px;
+  }
+  
+  /*Navbar stuff ends*/
+
+h1{
+    font-family: monospace;
+    font-variant: bold;
+    color:white;
+    font-size: 50px;
+}
+
+.cw{
+    margin:auto;
+    padding:10px;
+    text-align: center;
+    border-bottom: 5px #D3D3D3 solid;
+    max-width: 90%;
+}
+
+.cw h1{
+    margin-left: 10%;
+    text-decoration: underline;
+}
+
+.cw a{
+    display: inline-block;
+    padding-left: 9%;
+    padding-right: 9%;
+
+    font-family: monospace;
+    font-size: 175%;
+    text-decoration: underline;
+}
+
+.courses p{
+    margin-left: 6%;
+    color: #D3D3D3;
+    font-size: 150%;  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.projectSection{
+    padding-bottom: 3%;
+    border: 5px #D3D3D3 solid;
+    border-radius: 25px;
+    display:block;
+    max-width: 90%;
+    margin:auto;
+}
+
+.logo{
+    margin: auto;
+    height: 256px;
+    width: 256px;
+}
+
+#files{
+    background-image: url(imgFolder.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#censor{
+    margin-bottom: 4%;
+}
+
+.projectSection .programDesc{
+    padding-left: 5%;
+    font-size: 150%;
+    color: #D3D3D3;
+    max-width: 55%; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+}
+
+.imageWithText{
+    display:inline-block;
+    max-width: 20%;
+    padding-top:3%;
+    padding-left: 15%;
+    align-items: center;
+}
+
+.imageWithText img{
+    max-width: 35%;
+}
+
+.imageWithText p{
+    display: inline-block;
+    font-family: monospace;
+    color:white;
+    font-size: 135%;
+}
+
+.courses h1{
+    text-decoration: underline;
+}
+
+.projects h1{
+    margin-left: 6%;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+body{
+    background-color: #333333;
+    background-image: url("background.png");
+}

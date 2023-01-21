@@ -1,0 +1,141 @@
+.styleButton button{
+  /*margin:auto;*/
+  float: right;
+
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 3%;
+
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  font-family: monospace;
+  font-size: 150%;
+  font-weight:900;
+  text-align: center;
+  width:10%;
+  height:5%;
+  background-color: #7eba3d;
+  border:5px white solid;
+  border-radius: 15px;
+}
+
+.styleButton button:hover{
+  background-color: #D3D3D3;
+}
+
+
+/*Navbar stuff begins*/
+.navBar {
+  /*NEW STUFF*/
+  margin:auto;
+  max-width: 97%;
+  border: 4px #3571df solid;
+  border-radius: 25px;
+
+  font-family: monospace;
+  font-size: 300%;
+  text-align: center;
+  text-decoration-color: white;
+  background-color: #6495ed;
+  overflow: hidden;
+  white-space: nowrap; /*prevents the */
+}
+
+.navBar a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+/*.navBar a:hover{
+  background-color: #3571df;
+  font-size: 110%;
+  font-weight: bolder;
+  border-style: groove;
+  border-radius: 5%;
+}*/
+
+.navBar a:hover{
+  background-color: #3571df;
+  font-size: 110%;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+
+/*Navbar stuff ends*/
+
+body{
+  background-color: #333333;
+  background-image: url("background.png");
+}
+
+a{
+  text-decoration: none;
+  color: white; 
+}
+
+.homeContent{
+  font-size: 200%;
+  color:white;
+}
+
+.homeContent h1{
+  color:#7eba3d
+}
+
+.homeContent p{
+  color: #D3D3D3;
+}
+
+.homeContent strong{
+  color:white;
+  font-size:larger;
+}
+
+#standing{
+  border: 8px solid white;
+  border-radius: 5%;
+  width: 25%;
+  float:left;
+  margin-left: 8%;
+  margin-right: 6%;
+}
+
+/*.icons img{
+  margin:3%;
+  display:inline-block;
+  width: 6%;
+  height:6%;
+}*/
+
+.icons .square500{
+  margin:3%;
+  display:inline-block;
+  width: 130px;
+  height:130px;
+}
+
+#mail{
+  background-image: url(emailPixel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#github{
+  background-image: url(githubPixel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#insta{
+  background-image: url(instagramPixel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1{
+  font-family: monospace;
+  font-variant: bold;
+  color:white;
+  font-size: 500%;
+}

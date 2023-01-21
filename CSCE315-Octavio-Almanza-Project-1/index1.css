@@ -1,0 +1,165 @@
+body{
+    border:10px #500000 ridge;
+    border-radius: 15px;
+    height: 1050px;
+    background-image: url("background2.jpg");
+    background-size: auto;
+}
+
+.styleButton button{
+    /*margin:auto;*/
+    display:inline-block;
+    margin-left: 87%;
+  
+    margin-top: 3%;
+    margin-right: 10%;
+  
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight:900;
+    text-align: center;
+    width:10%;
+    height:5%;
+    background-color: #7eba3d;
+    border:5px #D3D3D3 ridge;
+}
+
+.styleButton button:hover{
+    background-color: #D3D3D3;
+}
+
+/* Navbar stuff */
+
+.navBar{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /*The following code makes it persistent at the bottom*/
+    bottom: 0%;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+
+    text-align: center;
+}
+
+.navBar a{
+    background-color: #500000;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    border: 4px #500000 solid;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    */
+    font-size: 160%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.navBar a:hover{
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+    border: 4px #500000 solid;
+}
+
+/*Navbar stuff finishes*/
+
+.homeContent h1{
+    display:block;
+    position: absolute;
+    top:-2%;
+    left:34.5%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 10px gold ridge;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 600%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.homeContent p{
+    font-size:300%;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.homeContent #standing{
+    display: inline-block;
+    max-width: 400px;
+    border: 15px black ridge;
+    margin-left: 35%;
+    margin-top:5%;
+}
+
+.homeContent a{
+    text-decoration: none;
+    color:black;
+}
+
+.homeContent p strong{
+    color:#500000;
+    font-size: larger;
+    font-weight: 1200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.icons{
+    position: static;
+    text-align: center;
+    margin-bottom: 15%;
+    width: 130px;
+
+    position:absolute;
+    left:12%;
+    top:15%
+}
+
+.icons .square500{
+    width:500px;
+    height:130px;
+    filter:invert(1);
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+/*.icons img{
+    max-width: 130px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    filter: invert(1);
+}*/
+
+#mail{
+    background-image: url(iconEmail.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#github{
+    background-image: url(iconGithub.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#insta{
+    background-image: url(iconInstagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

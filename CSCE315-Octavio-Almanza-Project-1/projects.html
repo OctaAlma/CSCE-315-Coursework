@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!-- Tell the browser it is an HTML5+ document-->
+<html lang="en"> <!-- Starts HTML document -->
+
+    <head> <!-- Metadata -->
+        <title>Projects</title><!--appears on the browser tab -->
+        <link rel="stylesheet" type="text/css" href="projects.css" id="page_style"></link>
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+    </head>
+
+    <div class="navBar">
+        <p>
+            <a href = "index.html">&emsp;Home&emsp;</a>
+            <a href="aboutMe.html">&emsp;About Me&emsp;</a>
+            <a class = "active" href="projects.html">&emsp;Projects&emsp;</a>
+            <a href="service.html">&emsp;Service&emsp;</a>
+            <a href="qualifications.html">&emsp;Qualifications&emsp;</a>
+        </p>
+    </div>
+
+    <div class="styleButton">
+
+        <button type='button', onclick="switch_style()">STYLE</button>
+        <script src="toggle.js"></script>
+
+    </div>
+    
+    <div class="cw">
+        <h1>Coursework</h1>
+        <a href="https://github.com/OctaAlma/CSCE-121-Coursework">
+            <div class="logo" id="files"></div>
+            <!--<img src="imgFolder.png">-->
+            <p>CSCE-121 Programming Assignments&#8599</p>
+        </a>
+
+        <a href="https://github.com/OctaAlma/CSCE-221-Coursework">
+            <!--<img src="imgFolder.png">-->
+            <div class="logo" id="files"></div>
+            <p id = "second">CSCE-221 Programming Assignments&#8599</p>
+        </a>
+    </div>
+
+    <br>
+
+    <h1 id="title">Personal Projects</h1>
+    
+
+    <div class="projectSection" id="censor">
+            <div class="programDesc">
+                <h1>Currency Converter</h1>
+                <p>This program begins by reading-in a file that contains the abbreviation, country, and exchange rate to US dollars of other currencies. The program will prompt the users for the currencies they want to convert from and the amount of money they want to convert. To modify the exchange rates one must modify or make their own input file.</p>
+            </div>
+
+            <div class="imageWithText">
+                    <a href="https://github.com/OctaAlma/Currency-Converter">
+                    <img src="fileIcon.png"><br>
+                    <p><u>Currency Converter&#8599</u></p>
+                    </a>
+            </div> 
+    </div>
+
+
+
+    <div class="projectSection" id="connect4">
+            <div class="programDesc">
+                <h1>Connect Four Game</h1>
+                <p>This is one of the first projects I ever made. I created it during Thanksgiving break after learning about multi-dimmensional arrays and their traversion. When ran, it will enable two players to enjoy a classic connect four game against each other via terminal prompts that ask for their moves.</p>
+            </div>
+
+            <div class="imageWithText">
+                    <a href="https://github.com/OctaAlma/Terminal-Connect-4">
+                    <img src="fileIcon.png"><br>
+                    <p><u>Connect 4&#8599</u></p>
+                    </a>      
+            </div> 
+    </div>
+
+    <br>
+
+</html>

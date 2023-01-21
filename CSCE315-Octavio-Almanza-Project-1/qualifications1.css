@@ -1,0 +1,240 @@
+body{
+    border:10px #500000 ridge;
+    background-image: url("background2.jpg");
+    background-size: auto;
+    height: 2150px;
+}
+
+.styleButton{
+    position:static;
+}
+
+.styleButton button{
+    display:inline-block;
+    margin-left: 87%;
+  
+    margin-top: 3%;
+    margin-right: 10%;
+  
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight:900;
+    text-align: center;
+    width:10%;
+    height:5%;
+    background-color: #7eba3d;
+    border:5px #D3D3D3 ridge;
+
+}
+
+.styleButton button:hover{
+    background-color: #D3D3D3;
+}
+
+/* Navbar stuff */
+
+.navBar{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /*The following code makes the bar persistent at the bottom*/
+    bottom: 0%;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+
+    text-align: center;
+}
+
+.navBar a{
+    background-color: #500000;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    border: 4px #500000 solid;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    */
+    font-size: 160%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.navBar a:hover{
+
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+    border: 4px #500000 solid;
+}
+
+/*Navbar stuff finishes*/
+
+.exp{
+    margin-left: 2%;
+    display: inline-block;
+    vertical-align: top;
+
+    margin-top: 1%;
+    max-width: 47%;
+    border: gold 10px ridge;
+
+    text-align: center;
+}
+
+.exp a{
+    text-decoration: none;
+    color:black;
+    text-decoration: underline;
+}
+
+.exp h1{
+    font-size: 300%;
+    text-align: center;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.exp .parWithImg{
+    margin:auto;
+    max-width: 80%;
+    border-bottom: #500000 ridge 10px;
+}
+
+
+.parWithImg p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 130%;
+}
+
+.exp strong{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.exp .parWithImg img{
+    max-width: 400px;
+    border: #500000 ridge 10px;
+}
+
+.exp .par{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 130%;
+    max-width: 80%;
+    margin:auto;
+
+    border-bottom: #500000 ridge 10px;
+    margin-bottom: 2%;
+
+}
+
+.cw{
+    display:inline-block;
+    text-align: center;
+    border: gold ridge 10px;
+    padding: 0% 2% 2% 2%;
+    margin-top: 1%;
+    margin-left: 2%;
+    width:40%;
+}
+
+.cw h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+}
+
+.cw table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+    margin:auto;
+    margin-bottom: 2%;
+    border-bottom: black 3px solid;
+}
+
+.cw table th{
+    padding:1%;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:125%;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.cw table td{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-left:black solid 3px;
+    border-right:black solid 3px;
+}
+
+.interests{
+    float:right;
+    position:static;
+    margin-top: -730px;
+    margin-right: 2.6%;
+
+    width:44%;
+    text-align: center;
+    border: gold ridge 10px;
+}
+
+.interests h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+}
+
+.interests strong{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.interests p{
+    margin:auto;
+    margin-bottom: 5%;
+    width:80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 130%;
+}
+
+.resume{
+    margin-left: 2%;
+    margin-top: 2%;
+
+    padding-top: 1%;
+
+    width: 47%;
+    border: gold ridge 10px;
+    text-align: center;
+}
+
+.resume h1{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 150%;
+    
+}
+
+.resume img{
+    margin:auto;
+    display: block;
+    max-width: 100px;
+}

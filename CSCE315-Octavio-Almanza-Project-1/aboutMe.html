@@ -1,0 +1,62 @@
+
+<!DOCTYPE html> <!-- Tell the browser it is an HTML5+ document-->
+<html lang="en"> <!-- Starts HTML document -->
+
+    <head> <!-- Metadata -->
+        <title>About Me</title><!--appears on the browser tab -->
+        <link rel="stylesheet" type="text/css" href="aboutMe.css" id="page_style"></link>
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    </head>
+
+    <div class="navBar">
+        <p>
+            <a href = "index.html">&emsp;Home&emsp;</a>
+            <a class = "active" href="aboutMe.html">&emsp;About Me&emsp;</a>
+            <a href="projects.html">&emsp;Projects&emsp;</a>
+            <a href="service.html">&emsp;Service&emsp;</a>
+            <a href="qualifications.html">&emsp;Qualifications&emsp;</a>
+        </p>
+    </div>
+
+    <div class="styleButton">
+
+        <button type='button', onclick="switch_style()">STYLE</button>
+        <script src="toggle.js"></script>
+
+    </div>
+
+    <br>
+
+    <div class="lifeSection">
+        <h1>My Life</h1>
+        <div class="paragraph">
+            <p>  
+                My name is Octavio Almanza, and I was born in Laredo, a small border city in south Texas between Mexico and the United States. I spent most of my childhood with my mother&#x2019s family in Mexico, which enabled me to adopt her culture, religion, and traditions. When I reached grade school, my mother decided to enroll me as a student in the US. Although this transition came with some personal hardships given the language and cultural barriers, my family knew it would be important for my future.
+                <br><br>
+                My introduction to computer science began with my 8th grade technology class. I was tasked with creating basic programs in <a href="https://scratch.mit.edu/">Scratch&#8599</a>, which is a block-based, visual programming website aimed at younger audiences. I found myself spending much of my free time working on small projects on my middle school&#x2019s rental laptop, which consisted of small platformer games and recreations of classic arcade games. I recall proudly showing my finished projects to my family and how fulfilling it felt to see them in action. Although Scratch is extremely user-friendly and limited in scope, it exposed me to the many challenges and possibilities that came with programming. This experience would lead me to enter my high school&#x2019s robotics team and computer science track.
+                <br><br>
+                My experience as a programmer for the FIRST Robotics Competition enabled me to work with Java, explore the basics of object-oriented design, and how computers interact with external devices such as motors and controllers. Working with high-level abstractions and devices furthered my curiosity about how everything worked under the hood, and it solidified my decision to pursue the field for my undergraduate studies. 
+                <br><br>
+                As my high school graduation approached, I had a hard time deciding where I would continue my studies. Although I would have liked to stay in a community college near my family and friends, my parents convinced me to pursue any opportunities that arose. This is why upon receiving my acceptance letter to A&M, I decided to further my education away from home. My family has made many expenses and sacrifices to ensure I could follow my passions, and I will ensure nothing goes to waste by continuing to succeed in all my educational endeavors.
+            </p>
+        </div>
+
+        <div class="picWithText" id="famPic">
+            <img src="family.jpg" id="fam">
+            <p>Me and My Family</p>
+        </div>
+
+        <div class="picWithText" id="gradPic">
+            <img src="graduation.jpg" id="grad">
+            <p>High School Graduation</p>
+        </div>
+
+        <div class="picWithText" id="gradPic">
+            <img src="firstDay.jpg" id="first">
+            <p>My First Day of Class at A&M</p>
+        </div>
+
+    </div>
+
+</html>

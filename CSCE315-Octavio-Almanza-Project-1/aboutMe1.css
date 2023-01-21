@@ -1,0 +1,134 @@
+body{
+    border:10px #500000 ridge;
+    border-radius: 15px;
+    background-image: url("background2.jpg");
+    background-size: auto;
+    height: 2000px;
+}
+
+.styleButton{
+    
+    position:static;
+}
+
+.styleButton button{
+    /*margin:auto;*/
+    display:inline-block;
+    margin-left: 87%;
+  
+    margin-top: 3%;
+    margin-right: 10%;
+  
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight:900;
+    text-align: center;
+    width:10%;
+    height:5%;
+    background-color: #7eba3d;
+    border:5px #D3D3D3 ridge;
+}
+
+.styleButton button:hover{
+    background-color: #D3D3D3;
+}
+
+/* Navbar stuff */
+
+.navBar{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /*The following code makes the bar persistent at the bottom*/
+    bottom: 0%;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+
+    text-align: center;
+}
+
+.navBar a{
+    background-color: #500000;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    border: 4px #500000 solid;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    */
+    font-size: 160%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.navBar a:hover{
+
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+    border: 4px #500000 solid;
+}
+
+/*Navbar stuff finishes*/
+
+.lifeSection h1{
+    max-width: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 300%;
+
+    padding-left: 5%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    border-bottom: 10px black ridge;
+
+    position:static;
+    margin-left: 20%;
+}
+
+.lifeSection .paragraph{
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 140%;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.lifeSection a{
+    color:black;
+    font-weight: bold;
+  }
+
+.lifeSection img{
+    max-height: 500px;
+    border: 10px #500000 ridge;
+}
+
+.lifeSection .picWithText{
+    vertical-align: top;
+    margin-top: 2%;
+    display:inline-block;
+    text-align: center;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#famPic{
+    margin-left: 5%;
+}
+
+#gradPic{
+    margin-left: 15%;
+}
