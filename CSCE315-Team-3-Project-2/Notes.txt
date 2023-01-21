@@ -1,0 +1,15 @@
+Hints on the database
+
+- Do not have a customer database, it just slows things down
+	- You might want to keep the names of vendors
+	- You might want a vendor for fresh vegetables for fresh plates and frozen chicke
+
+- Transaction database
+	- Be careful how this data is stored
+	- Prices change over time, so you do not want to 
+	- Will help 
+
+
+Inventory
+	- Realize that you may only need one slice of cheese for a burger, but you might buy inventory 
+	- Do you keep track of how much coke you sell or how many liters? After all, people get free refills

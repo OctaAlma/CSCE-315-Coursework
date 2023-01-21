@@ -1,0 +1,32 @@
+SELECT date_made, day_made, COUNT(*) FROM orders GROUP BY date_made, day_made HAVING COUNT(*) > 1;
+
+SELECT  SUM(order_total) FROM orders WHERE Order_id = 1;
+
+SELECT SUM(order_total) FROM orders WHERE date_made >= '2022-09-12' AND date_made <= '2022-09-18';
+
+SELECT SUM(order_total) FROM orders WHERE date_made = '2022-10-01';
+
+SELECT MAX(order_id) FROM orders;
+
+SELECT COUNT(*) from orders where item=1;
+
+SELECT SUM(order_total) AS total FROM orders  WHERE day_made='S';
+
+SELECT SUM(order_total) as Total from orders WHERE date_made='09-17-2022';
+
+SELECT num_orders FROM servers WHERE full_name = 'Snoop Dogg';
+
+SELECT full_name, hours_worked FROM servers WHERE hours_worked = (SELECT MAX(hours_worked) from servers);
+
+SELECT * FROM menu_items WHERE 'hamburger patties' =ANY(ingredient_list);
+
+SELECT * FROM menu_items WHERE item_price < 7;
+
+SELECT * FROM managers WHERE salary = (SELECT MAX(salary) FROM managers);
+
+SELECT itemid FROM inventory WHERE quantity = 0;
+
+SELECT itemid FROM inventory WHERE unit='gallon';
+
+SELECT serving_size, unit FROM inventory WHERE itemid='tomatoes';
+
